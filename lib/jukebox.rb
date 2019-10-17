@@ -47,3 +47,5 @@ end
 
 def run (songs)
 end
+
+play(songs)
