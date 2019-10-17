@@ -44,4 +44,4 @@ def run (songs)
 
 end
 
-list(songs)
+pay(songs)
