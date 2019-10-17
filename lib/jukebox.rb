@@ -24,6 +24,9 @@ def play
 end
 
 def list (songs)
+  songs.each_with_index{|array, index|
+    puts "#{idnex +1}songs[0]
+  }
 end
 
 def exit_jukebox
