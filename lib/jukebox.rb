@@ -25,9 +25,9 @@ def play (songs)
   puts "Please enter a song name or number:"
   input = gets.strip
 
-  songs.each_with_index{|song_list, index|
+  songs.each_with_index{|song, index|
     if input.to_i == (index + 1)
-      binding.pry
+      puts "Playing #{song_list}"
     end
   }
 end
