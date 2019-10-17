@@ -26,7 +26,7 @@ def play (songs)
   input = gets.strip
 
   songs.each_with_index{|song_list, index|
-    if input == songs[index + 1]
+    if input
       binding.pry
     end
   }
