@@ -28,6 +28,7 @@ def play (songs)
   songs.each_with_index{|song_list, index|
     if input == songs[index + 1]
       binding.pry
+    end
   }
 end
 
