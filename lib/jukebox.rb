@@ -26,8 +26,7 @@ end
 
 def list (songs)
   songs.each_with_index{|array, index|
-    song = "#{index +1}. #{songs[index]} -"
-    binding.pry
+    puts "#{index +1}. #{songs[index]} -"
   }
 end
 
