@@ -32,6 +32,7 @@ def play (songs)
       puts "Playing #{song}"
     end
   }
+  return "error"
 end
 
 def list (songs)
