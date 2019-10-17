@@ -32,7 +32,7 @@ def play (songs)
       puts "Playing #{song}"
     end
   }
-  return "error"
+  return "Invalid input, pelase try again"
 end
 
 def list (songs)
