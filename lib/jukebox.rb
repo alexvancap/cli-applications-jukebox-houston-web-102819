@@ -35,7 +35,6 @@ def play (songs)
     end
     binding.pry
   }
-  if input
 end
 
 def list (songs)
