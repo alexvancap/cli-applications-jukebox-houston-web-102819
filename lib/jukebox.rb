@@ -28,6 +28,8 @@ def play (songs)
   songs.each_with_index{|song, index|
     if input.to_i == (index + 1)
       puts "Playing #{song}"
+    elsif input == "exit"
+      return goodbye!
     end
   }
 end
