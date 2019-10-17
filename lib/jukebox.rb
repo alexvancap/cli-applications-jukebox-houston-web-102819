@@ -20,3 +20,6 @@ end
 
 def list
 end
+
+def exit_jukebox
+end
