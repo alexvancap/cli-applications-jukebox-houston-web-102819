@@ -30,10 +30,11 @@ def play (songs)
       puts "Playing #{song}"
     elsif input == song
       puts "Playing #{song}"
+    elsif (input != song) && (index == songs.length)
     end
     binding.pry
   }
-  puts "Invalid input, pelase try again"
+  if input"Invalid input, pelase try again"
 end
 
 def list (songs)
