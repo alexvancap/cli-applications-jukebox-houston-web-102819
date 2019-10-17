@@ -33,7 +33,7 @@ def play (songs)
     end
     binding.pry
   }
-  return "Invalid input, pelase try again"
+  puts "Invalid input, pelase try again"
 end
 
 def list (songs)
