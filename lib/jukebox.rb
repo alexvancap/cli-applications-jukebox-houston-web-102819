@@ -28,6 +28,8 @@ def play (songs)
   songs.each_with_index{|song, index|
     if input.to_i == (index + 1)
       puts "Playing #{song}"
+    else
+      puts "Invalid input, please try again"
     end
   }
 end
@@ -39,10 +41,8 @@ def list (songs)
 end
 
 def exit_jukebox
+  puts "Goodbye"
 end
 
 def run (songs)
-
 end
-
-play(songs)
