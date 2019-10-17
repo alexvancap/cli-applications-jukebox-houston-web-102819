@@ -1,3 +1,4 @@
+require 'pry'
 # Add your code here
 songs = [
   "Phoenix - 1901",
@@ -26,6 +27,7 @@ end
 def list (songs)
   songs.each_with_index{|array, index|
     puts "#{idnex +1}. songs[0] -"
+    
   }
 end
 
