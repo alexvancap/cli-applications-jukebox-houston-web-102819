@@ -22,7 +22,7 @@ def help
 end
 
 def play (songs)
-  until input == exit do
+  until input == "exit" do
   puts "Please enter a song name or number:"
   input = gets.strip
 
