@@ -27,6 +27,7 @@ def play (songs)
 
   songs.each_with_index{|array, index|
     puts array
+    binding.pry
   }
 end
 
