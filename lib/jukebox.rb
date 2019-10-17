@@ -33,7 +33,6 @@ def play (songs)
     elsif (input != song) && (index == songs.length)
       puts "Invalid input, pelase try again"
     end
-    binding.pry
   }
 end
 
