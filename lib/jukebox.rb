@@ -29,7 +29,7 @@ def play (songs)
     if input.to_i == (index + 1)
       return puts "Playing #{song}"
     elsif input == song
-      puts "Playing #{song}"
+      return puts "Playing #{song}"
     end
   }
 end
