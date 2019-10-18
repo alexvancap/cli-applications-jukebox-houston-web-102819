@@ -51,6 +51,8 @@ def run (songs)
   until input == "exit" do
       if input == help
         help
+      elsif input == list
+        list(songs)
       end
   end
 end
