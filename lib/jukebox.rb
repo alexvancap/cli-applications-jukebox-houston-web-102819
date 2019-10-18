@@ -52,7 +52,7 @@ def run (songs)
       if input == help
         help
       elsif input == list
-        list(songs)
+        list (songs)
       end
   end
 end
