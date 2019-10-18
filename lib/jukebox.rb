@@ -31,7 +31,7 @@ def play (songs)
     elsif input == song
       return puts "Playing #{song}"
     end
-    puts "Invalid input, pelase try again"
+    puts /Invalid input, pelase try again/
   }
 end
 
