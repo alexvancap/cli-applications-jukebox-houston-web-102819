@@ -49,10 +49,11 @@ def run (songs)
   puts "Please enter a command:"
   input = gets.strip
   until input == "exit" do
-      if input == help
+      if input == "help"
         help
-      elsif input == list
+      elsif input == "list"
         list (songs)
+      elsif input == "play"
       end
   end
 end
